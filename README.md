@@ -1,6 +1,9 @@
 # Instrucciones:
 
 crear, dentro del directorio donde está clonado este repo, una carpeta llamada "public" y dentro de esta una "img", ahí agregar Subcarpetas con las imagenes deseadas a servir.
+para hacer request de archivos basta con hacer get a `localhost:5490/img/carpeta/archivo.jpg`
+o para obtener un lista detallada con links y otras cosas debes utilizar `localhost:5490/info?galeria=NOMBRE-CARPETA` o con dos argumentos
+`localhost:5490/info?galeria=NOMBRE-CARPETA&subgaleria=NOMBRE-SUBCARPETA`
 
 ## Available Scripts
 
